@@ -722,3 +722,62 @@ a {
   margin-bottom: 1rem;
   line-height: 2.6rem;
 }
+
+.download {
+  background-color: var(--clr-blue-8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-container {
+  padding: 12rem 13.5rem;
+  width: 144rem;
+  position: relative;
+}
+
+.download-note {
+  font-size: var(--fs-large);
+  color: var(--clr-blue-1);
+  line-height: 1.8rem;
+  margin-bottom: 1.6rem;
+}
+
+.download-left {
+  width: 35.1rem;
+}
+
+.download-heading {
+  font-size: var(--fs-bigger);
+  line-height: 5.2rem;
+  color: var(--clr-blue-11);
+  margin-bottom: 2.7rem;
+}
+
+.download-paragraph {
+  line-height: 2.6rem;
+  margin-bottom: 3.9rem;
+}
+
+.download-img-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 30.9rem;
+}
+
+.download-link {
+  width: 15rem;
+  height: 5.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.download-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
