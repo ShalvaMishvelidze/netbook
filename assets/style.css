@@ -50,6 +50,7 @@ html {
   --fs-giant: 5.6rem;
   --fs-big: 3.6rem;
   --fs-large: 1.8rem;
+  --fs-larger: 2rem;
   --fs-regular: 1.6rem;
   --fs-small: 1.4rem;
   --fs-smaller: 1.2rem;
@@ -333,4 +334,141 @@ a {
   width: 27rem;
   height: 36.8rem;
   border-radius: 1.4rem;
+}
+
+.achievements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 13.5rem 11.8rem;
+  gap: 9.3rem;
+}
+
+.achievements-container {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.achievement {
+  padding: 4.5rem 4.4rem 3.8rem 1.5rem;
+  border: 1px solid var(--clr-gray-13);
+  border-radius: 1.4rem;
+  width: 33.6rem;
+}
+
+.achievement-with-shadow {
+  box-shadow: 0px 26px 98px var(--clr-gray-14);
+  background-color: var(--clr-white);
+}
+
+.achievement-heading-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.263rem;
+  margin-bottom: 3.3rem;
+}
+
+.achievement-heading {
+  font-size: var(--fs-larger);
+  font-weight: bold;
+  color: var(--clr-blue-11);
+  line-height: 2rem;
+}
+
+.achievement-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.6rem;
+  margin-bottom: 4rem;
+}
+
+.achievement-img-container {
+  width: 6rem;
+  position: relative;
+  height: 2.4rem;
+}
+.achievement-img {
+  position: absolute;
+  top: -4rem;
+}
+
+.achievement-img:first-child {
+  left: -4.8rem;
+  z-index: 1;
+}
+.achievement-img:nth-child(2) {
+  left: -3rem;
+  z-index: 2;
+}
+.achievement-img:last-child {
+  left: -1.2rem;
+  z-index: 2;
+}
+
+.achievement-text {
+  color: var(--clr-gray-10);
+}
+
+.achievement-text-blue {
+  color: var(--clr-blue-1);
+}
+
+.achievement-paragraph {
+  line-height: 2.6rem;
+  color: var(--clr-gray-8);
+  margin-bottom: 4.1rem;
+}
+
+.achievement-link-blue {
+  color: var(--clr-blue-1);
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.achievement-link-gray {
+  color: var(--clr-gray-7);
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.achievements-right {
+  width: 38.1rem;
+  padding-right: 1.6rem;
+}
+
+.achievements-note {
+  font-size: var(--fs-large);
+  color: var(--clr-blue-1);
+  line-height: 1.8rem;
+  padding: 0.9rem 0;
+}
+
+.achievements-heading {
+  font-size: var(--fs-big);
+  color: var(--clr-blue-11);
+  margin-bottom: 2.1rem;
+  line-height: 4.8rem;
+}
+
+.achievements-paragraph {
+  line-height: 2.8rem;
+  margin-bottom: 4.2rem;
+}
+
+.achievements-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 19.2rem;
+  height: 5.8rem;
+  border-radius: 1.4rem;
+  background-color: var(--clr-blue-1);
+  box-shadow: 0 10px 20px var(--clr-blue-4);
+  font-size: var(--fs-small);
+  gap: 2rem;
+  color: var(--clr-white);
 }
