@@ -7,32 +7,39 @@
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="home">
       <nav class="nav">
         <div class="nav-container">
           <div class="nav-left">
-            <a href="#" class="logo-link">
+            <a href="#home" class="logo-link">
               <img src="./assets/images/logo.svg" alt="logo" class="logo" />
             </a>
             <div class="nav-links">
-              <a href="#" class="nav-link"> Home </a>
-              <a href="#" class="nav-link"
+              <a href="#home" class="nav-link"> Home </a>
+              <a href="#community" class="nav-link"
                 >Community
                 <div class="arrow-down"></div
               ></a>
-              <a href="#" class="nav-link">Blog</a>
-              <a href="#" class="nav-link">Events</a>
+              <a href="#news" class="nav-link">Blog</a>
+              <a href="#achievements" class="nav-link">Events</a>
             </div>
           </div>
           <div class="nav-right">
-            <div class="search-container">
+            <form class="search-container">
               <input
-                type="search"
+                type="text"
                 name="search"
                 id="search"
                 placeholder="Search Here..."
               />
-            </div>
+              <button type="submit" class="search-btn">
+                <img
+                  src="./assets/images/search.svg"
+                  alt="magnifying glass"
+                  class="search-btn-img"
+                />
+              </button>
+            </form>
             <button type="button" class="nav-btn">Log in</button>
           </div>
         </div>
@@ -46,8 +53,10 @@
             touch with friends & family.
           </p>
           <div class="header-link-container">
-            <a href="#" class="header-link header-link-blue">About More</a
-            ><a href="#" class="header-link header-link-white">Invite Friend</a>
+            <a href="#about" class="header-link header-link-blue">About More</a>
+            <a href="#team" class="header-link header-link-white"
+              >Invite Friend</a
+            >
           </div>
         </div>
         <img
@@ -58,7 +67,7 @@
       </div>
     </header>
     <main class="main">
-      <section class="about">
+      <section class="about" id="about">
         <div class="about-left">
           <span class="about-note">Whats Netbooks?</span>
           <h2 class="about-heading">Why Join to Netbook Social Network?</h2>
@@ -98,7 +107,7 @@
           />
         </div>
       </section>
-      <section class="achievements">
+      <section class="achievements" id="achievements">
         <div class="achievements-container">
           <article class="achievement achievement-with-shadow">
             <div class="achievement-heading-container">
@@ -197,7 +206,7 @@
           </button>
         </div>
       </section>
-      <section class="community">
+      <section class="community" id="community">
         <div class="community-header">
           <span class="community-note">Our Community</span>
           <h2 class="community-heading">Community Main Feature</h2>
@@ -289,7 +298,7 @@
           </article>
         </div>
       </section>
-      <section class="team">
+      <section class="team" id="team">
         <div class="team-header">
           <span class="team-note">Valuable Team</span>
           <h2 class="team-heading">Our Active Members</h2>
@@ -376,7 +385,7 @@
           </article>
         </div>
       </section>
-      <section class="download">
+      <section class="download" id="download">
         <div class="download-container">
           <div class="download-left">
             <span class="download-note">Get Our Aplication</span>
@@ -409,7 +418,7 @@
           />
         </div>
       </section>
-      <section class="news">
+      <section class="news" id="news">
         <div class="news-header">
           <span class="news-note">Get Our Aplication</span>
           <h2 class="news-heading">Latest News</h2>
@@ -523,7 +532,7 @@
           </p>
           <form class="footer-form">
             <input
-              type="text"
+              type="email"
               class="footer-input"
               placeholder="Email Address"
             />
@@ -534,7 +543,7 @@
       <div class="footer-ribbon">
         <div class="footer-ribbon-container">
           <h6 class="ribbon-heading">Besnik Creative Agency.</h6>
-          <a href="#" class="ribbon-logo">
+          <a href="#home" class="ribbon-logo">
             <img
               src="./assets/images/logo-light.svg"
               alt="logo"
